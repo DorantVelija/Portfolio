@@ -13,7 +13,7 @@
     scroll-behavior: smooth;
    }</style>
     
-  <nav class="navbar navbar-expand-lg fixed-top navbar-scroll ">
+  <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#!">DV</a>
       <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
@@ -38,12 +38,29 @@
     </div>
   </nav>
 
-  <div id="home"></div>
+  <div id="home">
+    <div class="container">
+  <h1 id="homeH1">Portfolio.</h1>
+  </div>
+  <div class="container">
+  <button id="scrollToAbout"  onClick="document.getElementById('about').scrollIntoView()">More</button>
+</div>
+</div>
     
 
 
-  <div id="about" style="color: white;">
-    <H1 style="font-size: 500px;">BRUH</H1>
+  <div id="about">
+    <div class="containerTitle">
+    <h2 id="aboutText">About me</h2>
+    <span id="line"></span>
+  </div>
+  <div class="containerText">
+    <h3 id="aboutText2" class="aboutText2">I am a versatile creative professional, combining my skills as a web developer, photographer, and digital designer. With a passion for crafting visually captivating experiences, I strive to bring ideas to life through clean and functional code, striking visual imagery, and compelling digital designs. Whether it's building intuitive websites, capturing captivating moments behind the lens, or designing stunning graphics, I am dedicated to delivering exceptional results that engage and inspire.</h3>
+    <h3 id="aboutText2a">Bruh.</h3>
+    <button id="aboutButton" onclick="buttonClick()">>>></button>
+  </div>
+
+
   </div>
 
 
@@ -51,7 +68,7 @@
 
 
 
-
+<script src="../js/js.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

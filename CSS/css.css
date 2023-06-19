@@ -1,8 +1,73 @@
 body{
-  background-image: url(../IMGg/8f9c5d2b12164a2a130c22d44ca0a90e.jpg);}
+  margin: 0;
+}
+.hide{
+  display: none !important;
+  transition: .4;
+}
+.container{
+  display: flex;
+  justify-content: center !important;
+  justify-items: center !important;
+}
 #home, #about, #contact{
-    height: 1000px;
+  height: 1080px;
+  margin: 0;
+}
+#home{
+  background-image: url(../IMGg/homebg.png);
+  width: 100%;
+}
+#about{
+  background-image: url(../IMGg/aboutbg.png);
+ 
 }
 nav a{
     color: white;
+}
+nav{
+  display: flex !important;
+  justify-content: center !important;
+}
+#homeH1{
+font-size: 13rem;
+color: white;
+padding-top: 15%;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+#scrollToAbout{
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  border: white solid 3px;
+  color: white !important;
+  background-color: black ;
+}
+#aboutText{
+  color: white;
+  text-align: center !important;
+  font-size: 6rem;
+  margin-left: 50%;
+  padding-top: 10%;
+}
+.aboutText2{
+  color: white;
+  width: 50%;
+  margin-left: auto !important;
+  font-size: 1.4rem;
+  padding: 0;
+  transition: .4s;
+}
+#aboutText2a{
+  display: none;
+}
+#aboutButton{
+width: 100px;
+height: 50px;
+border-radius: 10px;
+border: white solid 3px;
+color: white !important;
+background-color: black ;
+font-weight: 900;
 }
