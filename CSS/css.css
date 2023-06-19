@@ -1,0 +1,8 @@
+body{
+  background-image: url(../IMGg/8f9c5d2b12164a2a130c22d44ca0a90e.jpg);}
+#home, #about, #contact{
+    height: 1000px;
+}
+nav a{
+    color: white;
+}
