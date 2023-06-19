@@ -2,7 +2,7 @@ body{
   margin: 0;
 }
 .hide{
-  display: none !important;
+  visibility: hidden  !important;
   transition: .4;
 }
 .container{
@@ -43,6 +43,8 @@ margin-bottom: 0;
   border: white solid 3px;
   color: white !important;
   background-color: black ;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 #aboutText{
   color: white;
@@ -52,6 +54,7 @@ margin-bottom: 0;
   padding-top: 10%;
 }
 .aboutText2{
+  visibility: visible;
   color: white;
   width: 50%;
   margin-left: auto !important;
@@ -59,8 +62,8 @@ margin-bottom: 0;
   padding: 0;
   transition: .4s;
 }
-#aboutText2a{
-  display: none;
+.aboutText2a{
+  visibility: hidden !important;
 }
 #aboutButton{
 width: 100px;
