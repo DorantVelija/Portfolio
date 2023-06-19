@@ -10,9 +10,10 @@ let buttonshow = document.getElementById('showMore');
 let home = document.getElementById('home')
 let picNo = 0
 function changeBackground() {
-    picNo = picNo ++ ;
-    if(picNo>6){
-    picNo = 0 
+    picNo = picNo+1;
+    if (picNo > 5) {
+            picNo = 1;
+        }
+        home.style.backgroundImage = "url(../IMGg/homepic"+picNo+".png)";
 }    
-    home.style.backgroundImage = "url(../IMGg/homepic"+picNo+".png)";
-}
+   
